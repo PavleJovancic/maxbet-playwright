@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "lib": ["ESNext.Array", "dom", "dom.iterable", "esnext"]
+  }
+}

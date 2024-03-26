@@ -1,0 +1,8 @@
+{ 
+    "google": {
+        "badinGoogle": "Badin",
+        "linkedinGoogle": "Linkedin",
+        "assertGoogleSearch": "//h3[contains(text(),'Outsourcing software')]"
+    }
+    
+}

@@ -1,0 +1,24 @@
+{
+  "name": "qaplayground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env ENV=$npm_config_ENV TAGS=$npm_config_TAGS playwright test",
+    "testing": "npm run test --ENV=prod --TAGS=testing"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.17",
+    "cross-env": "^7.0.3",
+    "playwright": "^1.41.2"
+  },
+  "dependencies": {
+    "compare-pdf": "^1.1.8",
+    "fs": "^0.0.1-security",
+    "pdf-parse": "^1.1.1"
+  }
+}

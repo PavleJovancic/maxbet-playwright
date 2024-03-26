@@ -1,0 +1,46 @@
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="33.467297">
+<testsuite name="tests\test.spec.ts" timestamp="2024-03-26T13:42:44.415Z" hostname="" tests="1" failures="1" skipped="0" time="30.005" errors="0">
+<testcase name="Login @login › Login to Maxbet" classname="tests\test.spec.ts" time="30.005">
+<failure message="test.spec.ts:20:9 Login to Maxbet" type="FAILURE">
+<![CDATA[  tests\test.spec.ts:20:9 › Login @login › Login to Maxbet ─────────────────────────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: page.goto: Test timeout of 30000ms exceeded.
+    Call log:
+      - navigating to "https://www.maxbet.rs/", waiting until "networkidle"
+
+
+      19 |
+      20 |     test("Login to Maxbet", async ({page}) => {
+    > 21 |         await page.goto("https://www.maxbet.rs/", {waitUntil:'networkidle'});
+         |                    ^
+      22 |         expect(page).toHaveURL('https://www.maxbet.rs/home')
+      23 |     });
+      24 |
+
+        at D:\Badin Projects\maxbet\tests\test.spec.ts:21:20
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-test-Login-login-Login-to-Maxbet\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\tests-test-Login-login-Login-to-Maxbet\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\tests-test-Login-login-Login-to-Maxbet\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-test-Login-login-Login-to-Maxbet\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-test-Login-login-Login-to-Maxbet\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
